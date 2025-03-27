@@ -11,7 +11,7 @@ class VirtualMemorySimulator:
         self.root.title("Advanced Memory Management Simulator")
         self.root.geometry("1400x900")
         
-        # Initialize attributes
+        # Initialfize attributes
         self.history = []
         self.page_faults = 0
         self.page_hits = 0
